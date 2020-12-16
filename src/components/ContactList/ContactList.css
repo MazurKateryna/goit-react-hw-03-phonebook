@@ -1,0 +1,25 @@
+.ContactList {
+  width: 300px;
+}
+
+.ContactList-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.ContactList-text {
+  flex: 0 0 85%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 16px;
+  border-radius: 3px;
+}
+
+.ContactList-button {
+  margin: 0 4px;
+  background-color: #31a766;
+  border: 1px solid #1ebd65;
+  color: #fff;
+  border-radius: 4px;
+}
