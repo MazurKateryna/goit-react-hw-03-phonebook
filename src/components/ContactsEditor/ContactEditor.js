@@ -1,9 +1,14 @@
 import React, {Component} from "react";
-import './ContactEditor.css'
 import { v4 as uuidv4 } from 'uuid';
-
+import PropTypes from 'prop-types';
+import './ContactEditor.css'
 
 export default class ContactEditor extends Component {
+  static propTypes = {
+    name: PropTypes.string.isRequired,
+    number: PropTypes.string.isRequired,
+  };
+
  state = {
    name: '',
    number: '',
